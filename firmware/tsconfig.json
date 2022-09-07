@@ -1,5 +1,7 @@
 {
     "compilerOptions": {
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
         "target": "es5",
         "noImplicitAny": true,
         "outDir": "built",

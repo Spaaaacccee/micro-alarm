@@ -1,0 +1,23 @@
+{
+  "name": "micro:alarm",
+  "version": "1.0.0",
+  "description": "micro:alarm",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "core": "*",
+    "bluetooth": "*",
+    "microphone": "*",
+    "timeanddate": "github:bsiever/microbit-pxt-timeanddate"
+  },
+  "files": ["main.ts"],
+  "public": false,
+  "yotta": {
+    "config": {
+      "microbit-dal": {
+        "bluetooth": {
+          "open": 1
+        }
+      }
+    }
+  }
+}
